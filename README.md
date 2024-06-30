@@ -16,7 +16,7 @@ npm install --save libreria-mensajes
 O puedes clonar el repositorio y copiar directamente los archivos:
 
 ```bash
-git clone https://github.com/tu-usuario/libreria-mensajes.git
+git clone https://github.com/matias-crypto/Frases-librery.git
 ```
 
 ## Uso
