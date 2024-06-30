@@ -15,8 +15,7 @@ const mensajes = {
         "Quien se transforma a sí mismo, transforma el mundo (Dalai Lama)",
         "Tu tiempo es limitado, así que no lo malgastes viviendo la vida de alguien más… ten el valor de seguir tu corazón y tu intuición (Steve Jobs)",
         "La mayoría de las personas gastan más tiempo y energías en hablar de los problemas que en afrontarlos (Henry Ford)",
-        "No es que tengamos poco tiempo, es que perdemos mucho (Séneca)",
-        
+        "No es que tengamos poco tiempo, es que perdemos mucho (Séneca)"
     ],
     piropos: [
         "Eres más dulce que el chocolate",
@@ -33,8 +32,7 @@ const mensajes = {
         "Tú eres mi principio, mi fin, mi todo",
         "Cuando pasas junto a mí, siento que el cielo se abre",
         "Si la luna fuera un beso, te la daría todas las noches",
-        "Eres como el mar, profundo, misterioso y lleno de vida",
-        
+        "Eres como el mar, profundo, misterioso y lleno de vida"
     ],
     reflexiones: [
         "La vida es un eco, lo que das, recibes. Lo que siembras, cosechas.",
@@ -48,8 +46,7 @@ const mensajes = {
         "La paciencia es amarga, pero sus frutos son dulces",
         "No dejes que los sueños sean solo sueños",
         "La vida comienza donde termina tu zona de confort",
-        "El único modo de hacer un gran trabajo es amar lo que haces",
-        
+        "El único modo de hacer un gran trabajo es amar lo que haces"
     ],
     refranes: [
         "A buen entendedor, pocas palabras bastan",
@@ -64,9 +61,20 @@ const mensajes = {
         "Dime con quién andas y te diré quién eres",
         "El que mucho abarca, poco aprieta",
         "El que mucho tiene, pronto se queda sin nada",
-        "A cada cerdo le llega su San Martín",
-        
+        "A cada cerdo le llega su San Martín"
     ]
 };
 
-export default mensajes;
+function obtenerMensajeAleatorio(categoria) {
+    const mensajesCategoria = mensajes[categoria];
+    if (!mensajesCategoria || mensajesCategoria.length === 0) {
+        throw new Error(`No hay mensajes disponibles para la categoría '${categoria}'`);
+    }
+    const indiceAleatorio = Math.floor(Math.random() * mensajesCategoria.length);
+    return mensajesCategoria[indiceAleatorio];
+}
+
+module.exports = {
+    mensajes,
+    obtenerMensajeAleatorio
+};
