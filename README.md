@@ -19,17 +19,17 @@ git clone https://github.com/matias-crypto/Frases-librery.git
 ## Uso
 
 
-### Ejemplo 1: Obtener un piropo aleatorio
+### Ejemplo 1: Obtener un consejo aleatorio
 
 ```javascript
-const mensajes = require('./Frases-librery/mensajes.js');
+const { obtenerConsejoAleatorio } = require('./Frases-librery/mensajes.js');
 
-function obtenerPiropoAleatorio() {
-    const piropo = mensajes.obtenerMensajeAleatorio('piropos');
-    console.log(piropo);
+function obtenerYMostrarConsejoAleatorio() {
+    const consejo = obtenerConsejoAleatorio();
+    console.log(consejo);
 }
 
-obtenerPiropoAleatorio();
+obtenerYMostrarConsejoAleatorio();
 
 ```
 
