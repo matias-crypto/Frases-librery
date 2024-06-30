@@ -4,11 +4,9 @@
 # Librería de Piropos y frases
 
 Una pequeña librería JavaScript para manejar mensajes como consejos, piropos, citas inspiradoras, etc.
-
-## Instalación
-
-Para usar esta librería en tu proyecto, puedes instalarla usando npm:
 ```
+
+##Instalacion
 
 Puedes clonar el repositorio y copiar directamente los archivos:
 
