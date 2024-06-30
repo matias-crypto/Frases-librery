@@ -6,9 +6,9 @@
 Una pequeña librería JavaScript para manejar mensajes como consejos, piropos, citas inspiradoras, etc.
 ```
 
-```
-##Instalacion
-```
+
+## Instalacion
+
 
 Puedes clonar el repositorio y copiar directamente los archivos:
 
