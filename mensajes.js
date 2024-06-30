@@ -74,7 +74,26 @@ function obtenerMensajeAleatorio(categoria) {
     return mensajesCategoria[indiceAleatorio];
 }
 
+function obtenerConsejoAleatorio() {
+    return obtenerMensajeAleatorio('consejos');
+}
+
+function obtenerPiropoAleatorio() {
+    return obtenerMensajeAleatorio('piropos');
+}
+
+function obtenerReflexionAleatoria() {
+    return obtenerMensajeAleatorio('reflexiones');
+}
+
+function obtenerRefránAleatorio() {
+    return obtenerMensajeAleatorio('refranes');
+}
+
 module.exports = {
     mensajes,
-    obtenerMensajeAleatorio
+    obtenerConsejoAleatorio,
+    obtenerPiropoAleatorio,
+    obtenerReflexionAleatoria,
+    obtenerRefránAleatorio
 };
