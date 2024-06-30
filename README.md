@@ -37,11 +37,10 @@ obtenerYMostrarConsejoAleatorio();
 
 ```javascript
 
-import mensajes from './Frases-librery/mensajes.js';
+import mensajes, { obtenerMensajeAleatorio } from './Frases-librery/mensajes.js';
 
 const handler = async (m, { conn }) => {
     try {
-        
         const consejo = obtenerMensajeAleatorio('consejos');
 
         conn.reply(m.chat, `
@@ -62,15 +61,6 @@ ${consejo}
         conn.reply(m.chat, 'Hubo un error al obtener el consejo. Inténtalo más tarde.', m);
     }
 };
-
-function obtenerMensajeAleatorio(categoria) {
-    const mensajesCategoria = mensajes[categoria];
-    if (!mensajesCategoria) {
-        return "Categoría no encontrada";
-    }
-    const indice = Math.floor(Math.random() * mensajesCategoria.length);
-    return mensajesCategoria[indice];
-}
 
 handler.help = ['consejo'];
 handler.tags = ['frases'];
