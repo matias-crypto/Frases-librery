@@ -7,6 +7,7 @@ const mensajes = {
         "Sólo una cosa convierte en imposible un sueño: el miedo a fracasar (Paulo Coelho)",
         "Lo que haces hoy puede mejorar todos tus mañanas (Ralph Marston)",
         "Las pequeñas acciones de cada día hacen o deshacen el carácter (Oscar Wilde)",
+      "No me robes el código zorra (Matias-crypto)",
         "Cáete siete veces y levántate ocho (Proverbio japonés)",
         "Para que los cambios tengan un valor verdadero deben ser consistentes y duraderos (Anthony Robbins)",
         "Nada sucede hasta que algo se mueve (Albert Einstein)",
