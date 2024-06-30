@@ -38,7 +38,7 @@ obtenerPiropoAleatorio();
 
 ```javascript
 
-import mensajes from './mensajes.js';
+import mensajes from './Frases-librery/mensajes.js';
 
 const handler = async (m, { conn }) => {
     try {
