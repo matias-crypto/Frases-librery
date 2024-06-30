@@ -18,7 +18,6 @@ git clone https://github.com/matias-crypto/Frases-librery.git
 
 ## Uso
 
-### Ejemplo 1: Obtener un consejo aleatorio
 
 ### Ejemplo 1: Obtener un piropo aleatorio
 
