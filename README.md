@@ -84,6 +84,43 @@ countries.forEach(country => {
 });
 ```
 
+## Ejemplo 4: Países (Comando WhatsApp)
+
+```javascript
+import countries from './Frases-librery/mensajes.js';
+
+const handler = async (m, { conn }) => {
+    try {
+        const mensajePaises = countries.map(country => 
+            `País: ${country.name}\nBandera: ${country.flag}\nMoneda: ${country.currency}`
+        ).join('\n\n');
+
+        conn.reply(m.chat, `
+*╭─────◈🌍◈──────╮*
+${mensajePaises}
+*╰─────◈🌍◈──────╯*`, m, {
+            contextInfo: {
+                externalAdReply: {
+                    title: '🌍 Información de Países 🌍',
+                    body: '¡Aquí tienes información sobre varios países!',
+                    sourceUrl: 'https://example.com',
+                    thumbnail: 'https://example.com/thumbnail.jpg'
+                }
+            }
+        });
+    } catch (error) {
+        console.error(error);
+        conn.reply(m.chat, 'Hubo un error al obtener la información de los países. Inténtalo más tarde.', m);
+    }
+};
+
+handler.help = ['pais'];
+handler.tags = ['información'];
+handler.command = ['pais'];
+
+export default handler;
+```
+
 ## Contribuir
 
 Si quieres contribuir a esta librería añadiendo más mensajes o mejorando su funcionalidad, puedes hacer un fork del repositorio y enviar un pull request.
