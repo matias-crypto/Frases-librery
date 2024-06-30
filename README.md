@@ -73,7 +73,7 @@ export default handler;
 
 Si quieres contribuir a esta librería añadiendo más mensajes o mejorando su funcionalidad, puedes hacer un fork del repositorio y enviar un pull request.
 
-## Autores
+## Autor
 
 - matias-crypto <usiku1234@gmail.com>
 
