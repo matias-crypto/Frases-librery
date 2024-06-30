@@ -20,21 +20,10 @@ git clone https://github.com/matias-crypto/Frases-librery.git
 
 ### Ejemplo 1: Obtener un consejo aleatorio
 
-```javascript
-import mensajes from 'libreria-mensajes';
-
-function obtenerConsejoAleatorio() {
-    const consejo = mensajes.obtenerMensajeAleatorio('consejos');
-    console.log(consejo);
-}
-
-obtenerConsejoAleatorio();
-```
-
-### Ejemplo 2: Obtener un piropo aleatorio
+### Ejemplo 1: Obtener un piropo aleatorio
 
 ```javascript
-import mensajes from 'libreria-mensajes';
+const mensajes = require('./Frases-librery/mensajes.js');
 
 function obtenerPiropoAleatorio() {
     const piropo = mensajes.obtenerMensajeAleatorio('piropos');
@@ -42,8 +31,10 @@ function obtenerPiropoAleatorio() {
 }
 
 obtenerPiropoAleatorio();
+
 ```
-## Ejemplo 3: Comando Bot WhatsApp 
+
+## Ejemplo 2: Comando Bot WhatsApp 
 
 ```javascript
 
