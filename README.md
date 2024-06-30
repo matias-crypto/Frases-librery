@@ -74,6 +74,16 @@ handler.command = ['consejo'];
 export default handler;
 ```
 
+## Ejemplo 3: Países
+
+```javascript
+const countries = require('./Frases-librery/paises.js');
+
+countries.forEach(country => {
+  console.log(`${country.name}: ${country.flag}, ${country.currency}`);
+});
+```
+
 ## Contribuir
 
 Si quieres contribuir a esta librería añadiendo más mensajes o mejorando su funcionalidad, puedes hacer un fork del repositorio y enviar un pull request.
