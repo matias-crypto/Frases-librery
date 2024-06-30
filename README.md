@@ -105,7 +105,3 @@ Si quieres contribuir a esta librería añadiendo más mensajes o mejorando su f
 
 - matias-crypto <usiku1234@gmail.com>
 
-## Licencia
-
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
-```
