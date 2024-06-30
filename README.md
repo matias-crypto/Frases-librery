@@ -68,14 +68,6 @@ handler.command = ['consejo'];
 
 export default handler;
 ```
-## Métodos Disponibles
-
-### `obtenerMensajeAleatorio(categoria)`
-
-- **Descripción**: Retorna un mensaje aleatorio de la categoría especificada.
-- **Parámetros**:
-- **categoria**: Nombre de la categoría de mensajes ('consejos', 'piropos', etc.).
-- **Retorno**: Un mensaje aleatorio de la categoría especificada.
 
 ## Contribuir
 
