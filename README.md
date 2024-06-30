@@ -1,8 +1,8 @@
 
 
-<a href="https://github.com/EnzoVaselevich/DiablaBot-MD-oficial-MD"><img title="Stars" src="https://img.shields.io/github/stars/EnzoVaselevich/DiablaBot-MD-oficial?color=ff4500&style=flat-square" /></a>
-<a href="https://github.com/zhwzein/Killua-Zoldyck/network/members"><img title="Forks" src="https://img.shields.io/github/forks/EnzoVaselevich/DiablaBot-MD-oficial?color=ff4500&style=flat-square" /></a>
-<a href="https://github.com/zhwzein/Killua-Zoldyck/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/EnzoVaselevich/DiablaBot-MD-oficial?label=watchers&color=ff4500&style=flat-square" /></a> <br>
+<a href="https://github.com/matias-crypto/Frases-librery"><img title="Stars" src="https://img.shields.io/github/stars/matias-crypto/Frases-librery?color=ff4500&style=flat-square" /></a>
+<a href="https://github.com/zhwzein/Killua-Zoldyck/network/members"><img title="Forks" src="https://img.shields.io/github/forks/matias-crypto/Frases-librery?color=ff4500&style=flat-square" /></a>
+<a href="https://github.com/zhwzein/Killua-Zoldyck/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/matias-crypto/Frases-librery?label=watchers&color=ff4500&style=flat-square" /></a> <br>
 
 ```markdown
 # Librería de Piropos y frases
