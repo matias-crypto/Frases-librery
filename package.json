@@ -1,0 +1,15 @@
+{
+  "name": "frases-librery",
+  "version": "1.0.0",
+  "description": "Una librería de frases aleatorias",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "matias-crypto",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.3"
+  }
+}
