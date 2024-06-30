@@ -8,12 +8,9 @@ Una pequeña librería JavaScript para manejar mensajes como consejos, piropos, 
 ## Instalación
 
 Para usar esta librería en tu proyecto, puedes instalarla usando npm:
-
-```bash
-npm install --save libreria-mensajes
 ```
 
-O puedes clonar el repositorio y copiar directamente los archivos:
+Puedes clonar el repositorio y copiar directamente los archivos:
 
 ```bash
 git clone https://github.com/matias-crypto/Frases-librery.git
