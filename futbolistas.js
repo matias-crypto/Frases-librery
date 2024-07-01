@@ -1,70 +1,10 @@
 // futbolistas.js
 
-module.exports = {
-    futbolistas: [
-        { nombre: "Lionel Messi", resumen: "Nacido en 1987 en Rosario, Argentina" },
-        { nombre: "Cristiano Ronaldo", resumen: "Nacido en 1985 en Funchal, Portugal" },
-        { nombre: "Neymar", resumen: "Nacido en 1992 en Mogi das Cruzes, Brasil" },
-        { nombre: "Kylian Mbappé", resumen: "Nacido en 1998 en Bondy, Francia" },
-        { nombre: "Mohamed Salah", resumen: "Nacido en 1992 en Nagrig, Egipto" },
-        { nombre: "Luka Modric", resumen: "Nacido en 1985 en Zadar, Croacia" },
-        { nombre: "Sergio Ramos", resumen: "Nacido en 1986 en Camas, España" },
-        { nombre: "Kevin De Bruyne", resumen: "Nacido en 1991 en Drongen, Bélgica" },
-        { nombre: "Robert Lewandowski", resumen: "Nacido en 1988 en Varsovia, Polonia" },
-        { nombre: "Harry Kane", resumen: "Nacido en 1993 en Londres, Inglaterra" },
-        { nombre: "Virgil van Dijk", resumen: "Nacido en 1991 en Breda, Países Bajos" },
-        { nombre: "Sadio Mané", resumen: "Nacido en 1992 en Bambali, Senegal" },
-        { nombre: "Raheem Sterling", resumen: "Nacido en 1994 en Kingston, Jamaica" },
-        { nombre: "Sergio Agüero", resumen: "Nacido en 1988 en Buenos Aires, Argentina" },
-        { nombre: "Paul Pogba", resumen: "Nacido en 1993 en Lagny-sur-Marne, Francia" },
-        { nombre: "Eden Hazard", resumen: "Nacido en 1991 en La Louvière, Bélgica" },
-        { nombre: "Antoine Griezmann", resumen: "Nacido en 1991 en Mâcon, Francia" },
-        { nombre: "Paulo Dybala", resumen: "Nacido en 1993 en Laguna Larga, Argentina" },
-        { nombre: "Luis Suárez", resumen: "Nacido en 1987 en Salto, Uruguay" },
-        { nombre: "Jadon Sancho", resumen: "Nacido en 2000 en Camberwell, Inglaterra" },
-        { nombre: "Romelu Lukaku", resumen: "Nacido en 1993 en Amberes, Bélgica" },
-        { nombre: "Marco Reus", resumen: "Nacido en 1989 en Dortmund, Alemania" },
-        { nombre: "Karim Benzema", resumen: "Nacido en 1987 en Lyon, Francia" },
-        { nombre: "Gareth Bale", resumen: "Nacido en 1989 en Cardiff, Gales" },
-        { nombre: "Thiago Alcântara", resumen: "Nacido en 1991 en San Pietro Vernotico, Italia" },
-        { nombre: "Son Heung-min", resumen: "Nacido en 1992 en Chuncheon, Corea del Sur" },
-        { nombre: "Thomas Müller", resumen: "Nacido en 1989 en Weilheim in Oberbayern, Alemania" },
-        { nombre: "Leroy Sané", resumen: "Nacido en 1996 en Essen, Alemania" },
-        { nombre: "João Félix", resumen: "Nacido en 1999 en Viseu, Portugal" },
-        { nombre: "Edinson Cavani", resumen: "Nacido en 1987 en Salto, Uruguay" },
-        { nombre: "Thibaut Courtois", resumen: "Nacido en 1992 en Bree, Bélgica" },
-        { nombre: "Alisson Becker", resumen: "Nacido en 1992 en Novo Hamburgo, Brasil" },
-        { nombre: "Marc-André ter Stegen", resumen: "Nacido en 1992 en Mönchengladbach, Alemania" },
-        { nombre: "Trent Alexander-Arnold", resumen: "Nacido en 1998 en Liverpool, Inglaterra" },
-        { nombre: "Aymeric Laporte", resumen: "Nacido en 1994 en Agen, Francia" },
-        { nombre: "N'Golo Kanté", resumen: "Nacido en 1991 en París, Francia" },
-        { nombre: "Frenkie de Jong", resumen: "Nacido en 1997 en Arkel, Países Bajos" },
-        { nombre: "Hakim Ziyech", resumen: "Nacido en 1993 en Dronten, Países Bajos" },
-        { nombre: "Kalidou Koulibaly", resumen: "Nacido en 1991 en Saint-Dié-des-Vosges, Francia" },
-        { nombre: "Giovanni Reyna", resumen: "Nacido en 2002 en Sunderland, Inglaterra" },
-        { nombre: "Rodrygo", resumen: "Nacido en 2001 en Osasco, Brasil" },
-        { nombre: "Erling Haaland", resumen: "Nacido en 2000 en Leeds, Inglaterra" },
-        { nombre: "Lucas Hernández", resumen: "Nacido en 1996 en Marsella, Francia" },
-        { nombre: "David Alaba", resumen: "Nacido en 1992 en Viena, Austria" },
-        { nombre: "Andrew Robertson", resumen: "Nacido en 1994 en Glasgow, Escocia" },
-        { nombre: "Vinícius Júnior", resumen: "Nacido en 2000 en São Gonçalo, Brasil" },
-        { nombre: "Phil Foden", resumen: "Nacido en 2000 en Stockport, Inglaterra" },
-        { nombre: "Mason Mount", resumen: "Nacido en 1999 en Portsmouth, Inglaterra" },
-        { nombre: "Jude Bellingham", resumen: "Nacido en 2003 en Stourbridge, Inglaterra" },
-        { nombre: "Ansu Fati", resumen: "Nacido en 2002 en Bissau, Guinea-Bissau" },
-        { nombre: "Kai Havertz", resumen: "Nacido en 1999 en Aquisgrán, Alemania" },
-        { nombre: "Pedri", resumen: "Nacido en 2002 en Tegueste, España" },
-        { nombre: "Jack Grealish", resumen: "Nacido en 1995 en Birmingham, Inglaterra" },
-        { nombre: "Bruno Fernandes", resumen: "Nacido en 1994 en Maia, Portugal" },
-        { nombre: "Lucas Paquetá", resumen: "Nacido en 1997 en Río de Janeiro, Brasil" },
-        { nombre: "Lautaro Martínez", resumen: "Nacido en 1997 en Bahía Blanca, Argentina" },
-        { nombre: "Achraf Hakimi", resumen: "Nacido en 1998 en Madrid, España" },
-        { nombre: "Nicolo Barella", resumen: "Nacido en 1997 en Cagliari, Italia" },
-        { nombre: "Dayot Upamecano", resumen: "Nacido en 1998 en Évreux, Francia" },
-        { nombre: "Yusuf Yazıcı", resumen: "Nacido en 1997 en Trabzon, Turquía" },
-        { nombre: "Jules Koundé", resumen: "Nacido en 1998 en París, Francia" }
-       
-    ]
-};
+const futbolista = [
+    { nombre: "Lionel Messi", resumen: "Nacido en 1987 en Rosario, Argentina" },
+    { nombre: "Cristiano Ronaldo", resumen: "Nacido en 1985 en Funchal, Portugal" },
+   
+    { nombre: "Jules Koundé", resumen: "Nacido en 1998 en París, Francia" }
+];
 
-module.exports = futbolistas
+module.exports = futbolista;  
