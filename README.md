@@ -7,7 +7,7 @@
 ```markdown
 # Librería de Piropos y frases
 
-Una pequeña librería JavaScript para manejar mensajes como consejos, piropos, citas inspiradoras, etc.
+Una pequeña librería JavaScript para manejar mensajes como consejos, piropos, Refranes, etc.
 ```
 
 
@@ -119,6 +119,16 @@ handler.tags = ['información'];
 handler.command = ['pais'];
 
 export default handler;
+```
+
+## Ejemplo 5: Futbolistas aleatorios
+
+```javascript
+
+const { obtenerFutbolistaAleatorio } = require('./Frases-librery/futbolista2');  
+
+const futbolistaAleatorio = obtenerFutbolistaAleatorio();
+console.log(futbolistaAleatorio);
 ```
 
 ## Contribuir
