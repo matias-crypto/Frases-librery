@@ -137,5 +137,5 @@ Si quieres contribuir a esta librería añadiendo más mensajes o mejorando su f
 
 ## Autor
 
-- matias-crypto <usiku1234@gmail.com>
+- matias-crypto: <usiku1234@gmail.com>
 
